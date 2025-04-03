@@ -12,3 +12,10 @@
 [Все товары](http://localhost:8080/api/products) <br>
 [Пример фильтрации 1](http://localhost:8080/api/products?properties[color][]=white) <br>
 [Пример фильтрации 2](http://localhost:8080/api/products?properties[color][]=white&properties[brand][]=lenovo)
+
+**URLs !encoded**: <br>
+
+http://localhost:8080/api/products <br>
+http://localhost:8080/api/products?properties[color][]=white <br>
+http://localhost:8080/api/products?properties[color][]=white&properties[brand][]=lenovo
+
